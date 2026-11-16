@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf2f8;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #ccc;
+}
+
+h1 {
+    text-align: center;
+    color: #2563eb;
+}
+
+.subtitle {
+    text-align: center;
+    color: gray;
+}
+
+h2 {
+    color: #2563eb;
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1749b0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #2563eb;
+    color: white;
+}
+
+.hapus {
+    background: #dc2626;
+}
+
+.edit {
+    background: #16a34a;
+}
+
+.pinjam {
+    background: #d97706;
+}
