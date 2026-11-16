@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Perpustakaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>PERPUSTAKAAN DIGITAL</h1>
+        <p class="subtitle">Sistem Informasi Perpustakaan</p>
+
+        <h2>Tambah Data Buku</h2>
+
+        <label>Judul Buku</label>
+        <input type="text" id="judul" placeholder="Masukkan judul buku">
+
+        <label>Nama Penulis</label>
+        <input type="text" id="penulis" placeholder="Masukkan nama penulis">
+
+        <label>Tahun Terbit</label>
+        <input type="number" id="tahun" placeholder="Masukkan tahun terbit">
+
+        <button onclick="tambahBuku()">Tambah Buku</button>
+
+        <h2>Daftar Buku</h2>
+
+        <input type="text" id="cari"
+        placeholder="Cari judul buku..."
+        oninput="tampilkanBuku()">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Judul</th>
+                    <th>Penulis</th>
+                    <th>Tahun</th>
+                    <th>Status</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+
+            <tbody id="daftarBuku"></tbody>
+        </table>
+
+        <h2>Jumlah Buku: <span id="jumlahBuku">0</span></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
